@@ -7,13 +7,13 @@ const MainPage = () => {
 
   return (
     <div className="main-page">
-      <h1>Monty Hall Simulation</h1>
+      <h1>Monty Hall Puzzle</h1>
       <div className="button-container">
         <button className="button" onClick={() => navigate('/game')}>
-          Play Game
+          Play the Game
         </button>
-        <button className="button" onClick={() => navigate('/result')}>
-          Result Check
+        <button className="button" onClick={() => navigate('/simulation')}>
+          Simulation
         </button>
       </div>
     </div>
