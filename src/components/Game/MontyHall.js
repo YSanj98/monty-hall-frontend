@@ -93,7 +93,7 @@ const MontyHall = () => {
       {result && (
         <div>
           <h2>Results:</h2>
-          <p className="result">{result.win ? "You win!" : "You lose!"}</p>
+          <p className="result">{result.win ? "You Won!" : "You Lost!"}</p>
           <button className="button" onClick={handleRestart}>Restart</button>
           <button className="button" onClick={() => navigate('/')}>Go To Home</button>
         </div>
