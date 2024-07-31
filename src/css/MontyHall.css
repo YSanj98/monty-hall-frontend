@@ -1,0 +1,121 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .doors-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .door-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    margin-bottom: 20px; 
+  }
+  
+  .door-image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .revealed-message {
+    color: #9a0ddb;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .user-message {
+    color: #31b1e0 ;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .prize-message {
+    color: #3aef14;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .door-message {
+    font-weight: bold;
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .result {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for mobile responsiveness */
+  @media (max-width: 768px) {
+    .door-image {
+      width: 200px; 
+      margin: 5px;
+    }
+  
+    .doors-container {
+      flex-direction: column;
+    }
+  
+    .button {
+      padding: 8px 20px;
+      font-size: 14px; 
+    }
+  
+    h1 {
+      font-size: 24px; 
+    }
+  
+    h2 {
+      font-size: 20px; 
+    }
+  
+    p {
+      font-size: 16px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .door-image {
+      width: 150px; 
+    }
+  
+    .button {
+      padding: 6px 15px;
+      font-size: 12px; 
+    }
+  
+    h1 {
+      font-size: 20px; 
+    }
+  
+    h2 {
+      font-size: 18px; 
+    }
+  
+    p {
+      font-size: 14px; 
+    }
+  }
+  
