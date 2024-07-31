@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MontyHall from "./components/Game/MontyHall";
 import MainPage from "./components/MainPage";
+import MontyHallResults from "./components/Simulation/MontyHallResults";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/game" element={<MontyHall />} />
+        <Route path="/simulation" element={<MontyHallResults />} />
       </Routes>
     </BrowserRouter>
   );
